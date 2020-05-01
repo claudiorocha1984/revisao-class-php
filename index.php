@@ -1,7 +1,7 @@
 <?php
 echo '<pre>';
     require_once 'Produto.php';
-    $pro = new produto();
+    $pro = new Produto();
     $pro-> setId('0001');
     $pro-> setNome('Notebook Dell X159');
     $pro-> setDescricao('Core I9 9900k, 16Gb Ram e SSD 500GB');
